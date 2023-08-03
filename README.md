@@ -8,6 +8,7 @@ This tutorial outlines sharing out resources over the network.
 
 
 
+
 First were going to create folders in the domanin controller's C drive. Create the following folders: “read-access”, “write-access”, “no-access”, “accounting”
 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/8ab1900f-89aa-40ac-a84b-30fe15fa36da)

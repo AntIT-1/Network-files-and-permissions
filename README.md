@@ -1,1 +1,48 @@
-# network-files-and-permissions
+
+  ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/872da474-62a6-41bc-9d80-1642bcc98f4e)
+
+
+<h1>Network File Shares and Permissions</h1>
+This tutorial outlines sharing out resourse over the network.
+
+First were going to create folders in the domanin controller's C drive. Create the following folders: “read-access”, “write-access”, “no-access”, “accounting”
+
+![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/8ab1900f-89aa-40ac-a84b-30fe15fa36da)
+
+Attempt to access file shares as a normal user
+On Cleint-1, the normal user was unable to access the file because it was not given permission by the admin. It will be able to access the other files since it set on the file share permission. 
+
+![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/c418edf5-863b-4220-a6c6-3f1bbc58ea6f)
+
+Create an “ACCOUNTANTS” Security Group, assign permissions, an test access
+![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/cc22e50c-451a-4a7a-8a3b-ef39c5b4085b)
+
+On the “accounting” folder you created earlier, set the following permissions:
+Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”
+
+
+![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/5264aafc-33f9-421c-b3fe-f24d49f923d8)
+
+![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/9a4f4aa1-2d61-4cd5-aad4-d7e892cc60fc)
+
+Now we can add the user on client-1 to the "ACCOUNTANTS" security group so they can access the Accountant file. 
+
+![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/9fa0cc7d-cb59-4edb-bc34-5a2fbf15aa6c)
+
+![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/47ea3665-c8b6-44f0-b90c-d0f8e06ac1f7)
+
+
+Once the user is added to the serurity group, you must log out and log back in in order for it to take effect. 
+
+![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/cb4cbcd1-c188-4eed-91ea-e44581e11df0)
+
+Now the file has been accessed by the user.
+
+![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/0e8d2459-fd9b-4f7e-bde7-18f059d3f73a)
+
+
+
+
+
+
+

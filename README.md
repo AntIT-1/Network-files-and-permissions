@@ -3,7 +3,7 @@
 
 
 <h1>Network File Shares and Permissions</h1>
-This tutorial outlines sharing out resourse over the network.
+This tutorial outlines sharing out resources over the network.
 
 First were going to create folders in the domanin controller's C drive. Create the following folders: “read-access”, “write-access”, “no-access”, “accounting”
 

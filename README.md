@@ -3,7 +3,7 @@
 
 
 <h1>Network File Shares and Permissions</h1>
-This tutorial outlines sharing out resources over the network.
+In this tutorial I will demonstrate how to  share out resources over the network.
 
 
 

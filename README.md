@@ -13,7 +13,7 @@ First were going to create folders in the domain controller's C drive. Create th
 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/8ab1900f-89aa-40ac-a84b-30fe15fa36da)
 
-Attempt to access file shares as a normal user
+Attempt to access file shares as a normal user on Client-1.
 On Cleint-1, the normal user was unable to access the file because it was not given permission by the admin. It will be able to access the other files since it set on the file share permission. 
 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/c418edf5-863b-4220-a6c6-3f1bbc58ea6f)

@@ -39,7 +39,7 @@ Now we can add the user on client-1 to the "ACCOUNTANTS" security group so they 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/47ea3665-c8b6-44f0-b90c-d0f8e06ac1f7)
 
 
-Once the user is added to the serurity group, you must log out and log back in in order for it to take effect. 
+Once the user is added to the serurity group, you must log out and log back in in order for it to take effect. Failer to log out and back in will result to access denial of the particular folder you are trying to access.  
 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/cb4cbcd1-c188-4eed-91ea-e44581e11df0)
 

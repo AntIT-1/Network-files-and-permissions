@@ -8,6 +8,9 @@ In this tutorial I will demonstrate how to  share out resources over the network
 
 
 
+
+
+<h2>Deployment and Configuration Steps</h2>
   
 First were going to create folders in the domain controller's C drive. Create the following folders: “read-access”, “write-access”, “no-access”, “accounting”
 

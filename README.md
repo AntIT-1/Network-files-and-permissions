@@ -3,7 +3,7 @@
 
 
 <h1>Network File Shares and Permissions</h1>
-In this tutorial I will demonstrate how to  share out resources over the network. When can create folders and allow certain users to have access to them. 
+In this tutorial I will demonstrate how to  share out resources over the network. We can create folders and allow certain users to have access to them. 
 
 
 

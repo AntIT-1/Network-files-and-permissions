@@ -3,13 +3,13 @@
 
 
 <h1>Network File Shares and Permissions</h1>
-In this tutorial I will demonstrate how to  share out resources over the network.
+In this tutorial I will demonstrate how to  share out resources over the network. When can create folders and allow certain users to have access to them. 
 
 
 
 
   
-First were going to create folders in the domanin controller's C drive. Create the following folders: “read-access”, “write-access”, “no-access”, “accounting”
+First were going to create folders in the domain controller's C drive. Create the following folders: “read-access”, “write-access”, “no-access”, “accounting”
 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/8ab1900f-89aa-40ac-a84b-30fe15fa36da)
 

@@ -21,7 +21,7 @@ On Cleint-1, the normal user was unable to access the file because it was not gi
 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/c418edf5-863b-4220-a6c6-3f1bbc58ea6f)
 
-Create an “ACCOUNTANTS” Security Group, assign permissions, an test access. With Security group, we can set file permissions easily. When selecting a security group in file share, all the users that users that are members of that security group, will have access to that file.
+Create an “ACCOUNTANTS” Security Group and assign permissions then we will test access. With Security group, we can set file permissions easily. When selecting a security group in file share, all the users that are members of that security group will have access to that file. Anyone who is not part of that group will not be able to gain access to that folder. 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/cc22e50c-451a-4a7a-8a3b-ef39c5b4085b)
 
 On the “accounting” folder you created earlier, set the following permissions:

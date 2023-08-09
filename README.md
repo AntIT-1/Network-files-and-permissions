@@ -16,12 +16,13 @@ First were going to create folders in the domain controller's C drive. Create th
 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/8ab1900f-89aa-40ac-a84b-30fe15fa36da)
 
-Attempt to access file shares as a normal user on Client-1.
-On Client-1, the normal user was unable to access the file because it was not given permission by the admin. It will be able to access the other files since those files were set on the file share permission. 
+Attempt to access the "no access" file as a normal user on Client-1. As you will find, you are unable to do so because that user wasn't granted access to that file in the file sharing in properties. 
+
 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/c418edf5-863b-4220-a6c6-3f1bbc58ea6f)
 
 With Security group, we can set file permissions easily. When selecting a security group in file share, all the users that are members of that security group will have access to that file. Anyone who is not part of that group will not be able to gain access to that file. Create an “ACCOUNTANTS” Security Group and assign permissions then we will test access.
+
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/cc22e50c-451a-4a7a-8a3b-ef39c5b4085b)
 
 On the “accounting” folder you created earlier, set the following permissions:

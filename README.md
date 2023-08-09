@@ -12,7 +12,7 @@ In this tutorial I will demonstrate how to  share out resources over the network
 
 <h2>Deployment and Configuration Steps</h2>
   
-First were going to create folders in the domain controller's C drive. Create the following folders: “read-access”, “write-access”, “no-access”, “accounting”
+First were going to create folders in the domain controller's C drive. Create the following folders: “read-access”, “write-access”, “no-access”, and “accounting”.
 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/8ab1900f-89aa-40ac-a84b-30fe15fa36da)
 

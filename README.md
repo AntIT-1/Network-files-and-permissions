@@ -12,7 +12,7 @@ In this tutorial I will demonstrate how to  share out resources over the network
 
 <h2>Deployment and Configuration Steps</h2>
   
-First were going to create folders in the domain controller's C drive. Create the following folders: “read-access”, “write-access”, “no-access”, and “accounting”.
+First were going to create folders in the domain controller's C drive. Create the following folders: “read-access”, “write-access”, “no-access”, and “accounting”. For the "no access" file, we are going to add only Domain admins to the list of users that we want to have access to this file. The normal user on Client-1 will not be added to this list therefore it will not be able to gain access to this file. 
 
 ![image](https://github.com/AntIT-1/network-files-and-permissions/assets/141161539/8ab1900f-89aa-40ac-a84b-30fe15fa36da)
 
